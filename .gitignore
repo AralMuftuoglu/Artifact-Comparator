@@ -1,0 +1,101 @@
+# ======================================================
+# 🌐 UNIVERSAL .gitignore (Frontend + Backend + IDE + OS)
+# ======================================================
+
+# -----------------------------
+# IDE / Editor files
+# -----------------------------
+.idea/
+*.iml
+*.json
+.vscode/
+*.swp
+*.swo
+shelf/
+workspace.xml
+httpRequests/
+uploads/
+
+# IntelliJ data sources
+dataSources/
+dataSources.local.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/modules.xml
+
+# -----------------------------
+# OS files
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------------
+# Logs and temporary files
+# -----------------------------
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# -----------------------------
+# Environment & local configs
+# -----------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+application-local.properties
+application-dev.properties
+
+# -----------------------------
+# Java / Maven / Gradle
+# -----------------------------
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.gradle/
+.gradle-cache/
+dependency-reduced-pom.xml
+
+# -----------------------------
+# Node.js / Frontend
+# -----------------------------
+node_modules/
+.pnp/
+.pnp.js
+coverage/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------
+# Misc
+# -----------------------------
